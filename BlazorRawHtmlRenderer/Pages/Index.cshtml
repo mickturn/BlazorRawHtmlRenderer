@@ -1,0 +1,63 @@
+﻿@page "/"
+
+
+@addTagHelper *, BlazorRawHtmlRendererComponent
+@using BlazorRawHtmlRendererComponent
+
+
+
+
+
+<h5>You can watch 4 mins <a href="https://www.youtube.com/watch?v=KjeL3H04bIU" target="_blank">video demonstration</a></h5>
+
+
+<h4 style="color:blue;">Input Raw html</h4>
+
+<h7>It is experimental and probably won't handle all html inputs</h7>
+<br />
+<div>
+
+    <textarea bind="@_RawHTML" rows="4" cols="50"></textarea>
+
+
+    <button class="btn btn-primary" onclick="@cmd_convert">Run</button>
+    <button class="btn btn-primary" onclick="@cmd_clear">Clear</button>
+
+</div>
+
+<br />
+
+<h3 style="color:red;">Result:</h3>
+<br />
+<div>
+
+    <CompRawHTML bind-RawHTML="@_RawHTML"></CompRawHTML>
+   
+</div>
+
+
+
+
+@functions{
+
+   
+    [Parameter]
+    private string _RawHTML { get; set; } = "<h2>hello</h2>";
+
+
+
+   
+    void cmd_convert()
+    {
+        StateHasChanged();
+    }
+
+    void cmd_clear()
+    {
+
+        _RawHTML = string.Empty;
+
+        StateHasChanged();
+
+    }
+}

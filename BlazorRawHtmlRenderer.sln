@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorRawHtmlRenderer", "BlazorRawHtmlRenderer\BlazorRawHtmlRenderer.csproj", "{C994B320-5E78-4AD9-8CA7-480810468E50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorRawHtmlRendererComponent", "BlazorRawHtmlRendererComponent\BlazorRawHtmlRendererComponent.csproj", "{CFE058AE-F4FD-4826-BEBC-5C403766772A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C994B320-5E78-4AD9-8CA7-480810468E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C994B320-5E78-4AD9-8CA7-480810468E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C994B320-5E78-4AD9-8CA7-480810468E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C994B320-5E78-4AD9-8CA7-480810468E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE058AE-F4FD-4826-BEBC-5C403766772A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE058AE-F4FD-4826-BEBC-5C403766772A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE058AE-F4FD-4826-BEBC-5C403766772A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE058AE-F4FD-4826-BEBC-5C403766772A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D969067-51E0-4F42-9642-5476494B0F19}
+	EndGlobalSection
+EndGlobal
